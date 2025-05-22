@@ -8,7 +8,7 @@ with open("fake_news_model.pkl", "rb") as f:
 # UI
 st.set_page_config(page_title="Fake News Detector", page_icon="📰")
 st.title("📰 Fake News Detection App")
-st.markdown("Enter a news article or headline to check whether it's **Real** or **Fake**.")
+st.markdown("Enter a news article or headline(US political content) to check whether it's **Real** or **Fake**.")
 
 # Input
 text_input = st.text_area("Paste News Text Here:", height=200)
